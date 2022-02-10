@@ -8,5 +8,8 @@ type employee struct {
 
 func main() {
 	var coder employee
+	coder.id = 1
+	coder.name = "Chris"
+	coder.dept = "I.T"
 
 }
