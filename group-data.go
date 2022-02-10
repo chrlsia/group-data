@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+type employee struct {
+	id   int
+	name string
+	dept string
+}
 
 func main() {
-	fmt.Println("test")
+	var coder employee
+
 }
